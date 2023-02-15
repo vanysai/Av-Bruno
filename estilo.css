@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(248, 147, 14, 0.938);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 60%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(250, 40, 40);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container input{
+    margin-bottom: 0.5rem;
+    border: 2px solid rgb(248, 147, 14, 0.938);
+    padding: 0.5rem;
+    border-radius: 10px;
+    outline: none;
+}
+
+.container input:hover{
+    background-color: rgb(248, 147, 14, 0.9388);
+    
+}
+
+.container button{
+    background-color: rgb(26, 107, 104);
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: rgb(248, 147, 14, 0.938 );
+    
+}
+
+.nav{
+    background-color: rgba(235, 65, 65, 0.938);
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+header{
+    background-color: rgb(235, 65, 65, 0.938);
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+header h1{
+    color: rgb(0, 0, 0);
+    font-family:'Courier New';
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(74, 19, 86);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+li a:hover{
+    color: #fff;
+    background-color: rgb(20, 13, 103);
+    padding: 0.5rem;
+    border-radius: 5px;
+   
+}
+
+ul li{
+    padding: 2rem;
+    list-style: none;
+}
+
+.ul{
+    padding: 0;
+    display: flex;
+}
+
+footer{
+
+    color: rgb(86, 40, 19);
+    border-top: 2px solid #f6e2f6;
+}
+
+th{
+    background-color: hsl(241, 47%, 65%);
+    border-radius: 15px;
+    color: #4f2897;
+    padding: 1rem;
+}
+td{
+    border:2px solid #805b80;
+    border-radius: 15px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+design{
+        
+        background-color: rgba(235, 65, 65, 0.938);
+        text-align: center;
+        justify-content: center;
+        padding: 1rem;
+}

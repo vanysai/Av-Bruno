@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    height: 100vh;
+    background-size:cover;
+    background-image: url(https://img.freepik.com/fotos-gratis/posicao-plana-de-uma-mascara-de-carnaval_23-2149197467.jpg);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.menu{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+
+
+}
+
+.conta{
+    color: #e22020;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 68px;
+   
+
+}
+
+.cadastro{
+    box-sizing: border-box;
+    
+
+}
+
+.preencher{
+    position: relative;
+    border-bottom: 2px solid #dddddd;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background: transparent;
+    outline: none;
+
+}
+
+.preencher input{
+    width:100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border:none;
+    background: none;
+    outline: none;
+    color: #dddddd;
+    
+}
+
+.preencher label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #dddddd;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    outline: none;
+    background: transparent;
+    
+}
+
+.home button{
+
+    width: 100%;
+    height: 50px;
+
+
+
+    border-radius: 0px solid;
+    background: #DAA520;
+    border-radius: 25px;
+    font-size: 20px;
+    color:rgb(243, 205, 205);
+    font-weight: 700;
+
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+}
+
+.list button{
+    width: 100%;
+    height: 50px;
+
+
+
+    border-radius: 0px solid;
+    background: #DAA520;
+    border-radius: 25px;
+    font-size: 20px;
+    color:rgb(243, 205, 205);
+    font-weight: 700;
+
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+}
+
+
+.acessar button{
+    width: 100%;
+    height: 50px;
+
+
+
+    border-radius: 0px solid;
+    background: #DAA520;
+    border-radius: 25px;
+    font-size: 20px;
+    color:rgb(243, 205, 205);
+    font-weight: 700;
+
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    
+    
+}
+
+
+.acessar button:hover{
+    transform: scale(1.04);
+    transition: .5s;
+
+}
