@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-image: url('https://img.elo7.com.br/product/original/1B1A1E2/carnaval-painel-em-lona-1-50x1m-decoracao-de-aniversario.jpg');
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 60%;
+    text-align: center;
+    justify-content: center;
+    background-color:transparent;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: rgb(254, 255, 255);
+    
+}
+
+.container input{
+    margin-bottom: 0.5rem;
+    border: 2px solid hsl(241, 47%, 65%);
+    padding: 0.5rem;
+    border-radius: 10px;
+    outline: none;
+}
+
+.container input:hover{
+    background-color:transparent;
+    
+}
+
+.container button{
+    background-color: hsl(241, 47%, 65%);
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: transparent;
+    color: aliceblue;
+    
+}
+
+.nav{
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+header{
+    background-color: transparent;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman';
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    background-color: hsl(241, 47%, 65%);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+li a:hover{
+    color: #fff;
+    background-color: rgb(137, 128, 228);
+    padding: 0.5rem;
+    border-radius: 5px;
+   
+}
+
+ul li{
+    padding: 2rem;
+    list-style: none;
+}
+
+.ul{
+    padding: 0;
+    display: flex;
+}
+
+footer{
+
+    color: rgb(255, 255, 255);
+    border-top: 2px solid #f6e2f6;
+}
+
+th{
+    background-color: hsl(241, 47%, 65%);
+    border-radius: 15px;
+    color: #4f2897;
+    padding: 1rem;
+}
+td{
+    border:2px solid hsl(241, 47%, 65%);
+    border-radius: 15px;
+    padding: 0.5rem;
+    text-align: center;
+}
